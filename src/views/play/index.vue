@@ -1,5 +1,7 @@
 <template>
-  <SearchBar />
+  <div>
+    play
+  </div>
 </template>
 
 <script setup lang="ts">

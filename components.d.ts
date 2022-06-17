@@ -7,6 +7,9 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SearchBar: typeof import('./src/components/SearchBar.vue')['default']
+    VanTabbar: typeof import('vant/es')['Tabbar']
+    VanTabbarItem: typeof import('vant/es')['TabbarItem']
   }
 }
 
